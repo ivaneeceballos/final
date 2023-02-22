@@ -1,5 +1,6 @@
 /* footer */
-  
+
+ 
 .footer__h2 {
     text-align: center;
     margin: 20px;
@@ -9,6 +10,10 @@
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    /*fondo footer*/
+    background-image: url(../../secciones/src/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .footer__div--div {
@@ -16,11 +21,12 @@
     justify-content: space-around;
     align-items: flex-end;
     flex-direction: column;
+    
   }
   
   .img__contactos {
-    height: 40vh;
-    width: 50vh;
+    height: 150px;
+    width: 150px;
   }
   
   /* redes sociales iconos */
