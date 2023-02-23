@@ -1,44 +1,29 @@
 /* footer */
 
- 
+
 .footer__h2 {
-    text-align: center;
-    margin: 20px;
-  }
-  
-  .footer__div {
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    /*fondo footer*/
-    background-image: url(../../secciones/src/footer.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .footer__div--div {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    flex-direction: column;
-    
-  }
-  
-  .img__contactos {
-    height: 150px;
-    width: 150px;
-  }
-  
-  /* redes sociales iconos */
-  .wasapp a {
-    color: $colors-whatsapp;
-  }
-  
-  .facebook a {
-    color: $colors-facebook;
-  }
-  
-  .instegram a {
-    color: $colors-instegram;
-  }
-  /*fin footer*/
+  text-align: center;
+  margin: 20px;
+}
+
+.footer__div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*fondo footer*/
+  background-image: url(../../secciones/src/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__div--div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.img__contactos {
+  height: 150px;
+  width: 150px;
+}

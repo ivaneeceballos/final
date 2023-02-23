@@ -39,13 +39,15 @@
     display: flex;
     justify-content: space-around;
   }
+
   .mapa {
     width: 300px;
     height: 419px;
     margin-top: 5px;
-  } 
-/*imagen de main sumado h2 y parrafo*/
-  
+  }
+
+  /*imagen de main sumado h2 y parrafo*/
+
   .div_texto--icono {
     display: flex;
     justify-content: flex-start;
@@ -53,17 +55,20 @@
     align-items: center;
     margin: 40px 0 0 0;
   }
-/*imagen de main sumado h2 y parrafo*/
+
+  /*imagen de main sumado h2 y parrafo*/
   .formato_label {
     font-size: 15px;
     font-weight: bold;
     margin: 0 0 0 16px;
   }
+
   .form__form--label {
     font-weight: bold;
   }
+
   .formato_input {
-    margin:0 0 3px 0;
+    margin: 0 0 3px 0;
   }
 
   .formato_input--email {
@@ -76,7 +81,7 @@
 
   .form__form--label {
     font-size: 20px;
-    
+
   }
 
   .h2_form {
@@ -105,7 +110,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .imgMain {
     border: 2px aqua solid;
     border-radius: 10px;
@@ -114,9 +119,18 @@
     margin: 0 0 30px 0;
   }
 
-  
+
 
 }
+
+@media (max-width: 768px) {
+  /* footer */
+  .footer__div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* fin footer */
 
 /* celulares */
 @media (max-width: 480px) {
@@ -142,23 +156,27 @@
     justify-content: space-evenly;
     align-items: center;
   }
+
   .div_principal--contacto {
     display: flex;
     flex-direction: column;
-}
-/*imagen de main sumado h2 y parrafo*/
+  }
 
-.icono_footer {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.div_texto--icono {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-/*imagen de main sumado h2 y parrafo*/
+  /*imagen de main sumado h2 y parrafo*/
+
+  .icono_footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .div_texto--icono {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*imagen de main sumado h2 y parrafo*/
   /* fin pagina contacto */
 
   .header {
@@ -170,23 +188,24 @@
 
 
   /* formulario */
-  
+
 
   .form__form {
     width: 300px;
   }
-  
+
   .formato_input {
     width: 120px;
     height: 20px;
     margin: 0 0 0 40px;
   }
-  
+
   .formato_input--email {
     width: 120px;
     height: 20px;
     margin: 0 0 0 61px;
   }
+
   .textarea {
     width: 280px;
   }
@@ -215,11 +234,12 @@
     height: 200px;
   }
 }
+
 /*desde los 10 en adelante*/
-@media (min-width: 1100px ) {
+@media (min-width: 1100px) {
   .mapa {
     width: 350px;
     height: 470px;
     margin-top: 5px;
-  } 
+  }
 }
