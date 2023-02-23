@@ -78,40 +78,37 @@ p {
 
 .main__div--contactos {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-evenly;
+  flex-direction: row-reverse;
   align-items: center;
-  
+  justify-content: space-evenly;
+
 }
 
 .div_principal--contacto {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 /*imagen de main sumado h2 y parrafo*/
 
-.img__hombre {
-  height: 50vh;
-  width: 50vh;
-}
+
 .icono_footer {
   margin-top: 50px;
 }
-.div_img--hombre {
+
+.div_texto--icono {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+
 }
 
 /*imagen de main sumado h2 y parrafo*/
 .mapa {
-  width: 50vh;
-  height: 50vh;
-  margin: 20px 0 0 0;
+  height: 71vh;
+  width: 50vh; 
 }
-
 .formato_label {
   margin: 10px 0 0 50px;
 }

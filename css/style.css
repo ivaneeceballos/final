@@ -109,23 +109,19 @@ p {
 /* pagina contactos */
 .main__div--contactos {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-evenly;
-  align-items: center; }
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly; }
 
 .div_principal--contacto {
   display: flex;
-  justify-content: space-evenly; }
+  flex-direction: column; }
 
 /*imagen de main sumado h2 y parrafo*/
-.img__hombre {
-  height: 50vh;
-  width: 50vh; }
-
 .icono_footer {
   margin-top: 50px; }
 
-.div_img--hombre {
+.div_texto--icono {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -133,9 +129,8 @@ p {
 
 /*imagen de main sumado h2 y parrafo*/
 .mapa {
-  width: 50vh;
-  height: 50vh;
-  margin: 20px 0 0 0; }
+  height: 71vh;
+  width: 50vh; }
 
 .formato_label {
   margin: 10px 0 0 50px; }
@@ -281,7 +276,7 @@ p {
 
 /*fin footer*/
 /* media queri */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   /* pagina fotos */
   .container {
     display: grid;
@@ -296,19 +291,15 @@ p {
     flex-direction: column;
     align-items: flex-end; }
   /* pagina contacto */
-  .main__div--contactos {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    align-items: center; }
   .div_principal--contacto {
     display: flex;
     justify-content: space-around; }
+  .mapa {
+    width: 300px;
+    height: 415px;
+    margin-top: 5px; }
   /*imagen de main sumado h2 y parrafo*/
-  .img__hombre {
-    height: 37vh;
-    width: 33vh; }
-  .div_img--hombre {
+  .div_texto--icono {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -346,13 +337,7 @@ p {
     border-radius: 10px;
     width: 450px;
     height: 400px;
-    margin: 0 0 30px 0; }
-  /* ubicacion */
-  .div__mapa {
-    margin: 10px 0 0 0; }
-  .mapa {
-    width: 310px;
-    height: 200px; } }
+    margin: 0 0 30px 0; } }
 
 /* celulares */
 @media (max-width: 480px) {
@@ -373,13 +358,10 @@ p {
     display: flex;
     flex-direction: column-reverse; }
   /*imagen de main sumado h2 y parrafo*/
-  .img__hombre {
-    height: 50vh;
-    width: 40vh; }
   .icono_footer {
     margin-top: 50px;
     margin-bottom: 50px; }
-  .div_img--hombre {
+  .div_texto--icono {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -416,9 +398,9 @@ p {
     width: 300px;
     height: 200px; } }
 
-/*desde los 1250 en adelante*/
-@media (min-width: 1250px) {
+/*desde los 10 en adelante*/
+@media (min-width: 1100px) {
   .mapa {
-    width: 40vh;
-    height: 40vh;
-    margin: 20px 0 0 0; } }
+    width: 350px;
+    height: 470px;
+    margin-top: 5px; } }
