@@ -10,11 +10,10 @@ body {
 /*secciones al ultimo*/
 /* header */
 .logo {
-  height: 60px;
-  width: 150px;
+  height: 70px;
   border: 2px aqua solid;
   border-radius: 10%;
-  margin: 5px; }
+  margin: 10px; }
 
 .header {
   display: flex;
@@ -44,7 +43,8 @@ body {
 
 .header__nav li a:hover {
   background-color: aqua;
-  color: black; }
+  color: black;
+  font-weight: bold; }
 
 /* fin header */
 /* main */
@@ -105,7 +105,7 @@ p {
   display: flex;
   justify-content: center; }
 
-/* fin pagina clentes */
+/* fin pagina clientes */
 /* pagina contactos */
 .main__div--contactos {
   display: flex;
@@ -128,26 +128,34 @@ p {
   align-items: center;
   margin-top: 60px; }
 
+.div_texto--icono p {
+  max-width: 800px; }
+
 /*imagen de main sumado h2 y parrafo*/
 .mapa {
   height: 71vh;
-  width: 50vh; }
+  width: 50vh;
+  border-radius: 5px; }
 
 .formato_label {
   margin: 10px 0 0 50px; }
 
 .formato_input {
-  margin: 0 50px 0 0; }
+  margin: 0 50px 0 0;
+  border-radius: 5px; }
 
 .formato_input--email {
-  margin: 0 0 0 20px; }
+  margin: 0 0 0 20px;
+  border-radius: 5px; }
 
 .form__form {
   font-size: 15px;
-  border: 3px aqua solid; }
+  border: 3px aqua solid;
+  border-radius: 5px; }
 
 .textarea {
-  margin: 0 0 0 20px; }
+  margin: 0 0 0 20px;
+  border-radius: 5px; }
 
 .form__form--label {
   font-size: 20px;
@@ -157,14 +165,27 @@ p {
   text-align: center;
   margin: 30px; }
 
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .botones_form {
-  margin: 0 0 0 70px; }
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0 10px 0 0; }
+
+.botones_form:hover {
+  background-color: black;
+  color: aqua; }
 
 /* fin pagina contactos */
 /* pagina Nosotros */
 .main__div--nosotros {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
 
 .main__div--nosotrosSectionUno {
   display: flex;
@@ -173,7 +194,8 @@ p {
   border: 2px aqua solid;
   border-radius: 5px;
   margin: 3px;
-  padding: 3px; }
+  padding: 3px;
+  max-width: 800px; }
 
 .main__div--nosotrosSectionDos {
   display: flex;
@@ -182,7 +204,8 @@ p {
   border: 2px aqua solid;
   border-radius: 5px;
   margin: 3px;
-  padding: 30px; }
+  padding: 30px;
+  max-width: 800px; }
 
 .main__div--nosotrosSectionTres {
   display: flex;
@@ -192,7 +215,8 @@ p {
   border-radius: 5px;
   margin: 3px;
   padding: 30px;
-  list-style: none; }
+  list-style: none;
+  max-width: 800px; }
 
 /* fin de pagina nosotros */
 /* pagina fotos */
