@@ -47,6 +47,10 @@ body {
   font-weight: bold; }
 
 /* fin header */
+/*index parrafo*/
+.parrafo_index {
+  max-width: 500px; }
+
 /* main */
 .main__h1 {
   text-align: center;
@@ -117,10 +121,6 @@ p {
   display: flex;
   flex-direction: column; }
 
-/*imagen de main sumado h2 y parrafo*/
-.icono_footer {
-  margin-top: 50px; }
-
 .div_texto--icono {
   display: flex;
   justify-content: flex-start;
@@ -131,12 +131,12 @@ p {
 .div_texto--icono p {
   max-width: 800px; }
 
-/*imagen de main sumado h2 y parrafo*/
 .mapa {
   height: 71vh;
   width: 50vh;
   border-radius: 5px; }
 
+/* FORMULARIO */
 .formato_label {
   margin: 10px 0 0 50px; }
 
@@ -283,6 +283,9 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: row; }
+
+.icono_footer {
+  margin-top: 50px; }
 
 .img__contactos {
   height: 150px;

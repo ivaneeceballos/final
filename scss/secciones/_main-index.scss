@@ -1,5 +1,8 @@
+/*index parrafo*/
+.parrafo_index { 
+  max-width: 500px;
+}
 /* main */
-
 .main__h1 {
   text-align: center;
   border-bottom: 2px $colors-primario solid;
@@ -89,12 +92,7 @@ p {
   flex-direction: column;
 }
 
-/*imagen de main sumado h2 y parrafo*/
 
-
-.icono_footer {
-  margin-top: 50px;
-}
 
 .div_texto--icono {
   display: flex;
@@ -108,13 +106,12 @@ p {
   max-width: 800px;
 }
 
-/*imagen de main sumado h2 y parrafo*/
 .mapa {
   height: 71vh;
   width: 50vh;
   border-radius: 5px;
 }
-
+/* FORMULARIO */
 .formato_label {
   margin: 10px 0 0 50px;
 }
