@@ -138,7 +138,7 @@ p {
 
 /* FORMULARIO */
 .formato_label {
-  margin: 10px 0 0 50px; }
+  margin: 10px 0 0 20px; }
 
 .formato_input {
   margin: 0 50px 0 0;
@@ -281,8 +281,7 @@ p {
 .footer__div--div {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: row; }
+  align-items: center; }
 
 .icono_footer {
   margin-top: 50px; }
@@ -403,13 +402,14 @@ p {
   .form__form {
     width: 300px; }
   .formato_input {
-    width: 120px;
+    width: 193px;
     height: 20px;
-    margin: 0 0 0 40px; }
+    height: 20px;
+    margin: 0px 0 0 16px; }
   .formato_input--email {
-    width: 120px;
+    width: 192px;
     height: 20px;
-    margin: 0 0 0 61px; }
+    margin: 0 0 0 35px; }
   .textarea {
     width: 280px; }
   /* fin de formulario */
