@@ -171,14 +171,15 @@ p {
   align-items: center; }
 
 .botones_form {
-  color: black;
+  background-color: black;
+  color: aqua;
   font-weight: bold;
   border-radius: 5px;
   margin: 0 10px 0 0; }
 
 .botones_form:hover {
-  background-color: black;
-  color: aqua; }
+  background-color: aqua;
+  color: black; }
 
 /* fin pagina contactos */
 /* pagina Nosotros */
