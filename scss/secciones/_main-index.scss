@@ -1,7 +1,8 @@
 /*index parrafo*/
-.parrafo_index { 
+.parrafo_index {
   max-width: 500px;
 }
+
 /* main */
 .main__h1 {
   text-align: center;
@@ -111,6 +112,7 @@ p {
   width: 50vh;
   border-radius: 5px;
 }
+
 /* FORMULARIO */
 .formato_label {
   margin: 10px 0 0 20px;
@@ -156,16 +158,16 @@ p {
 .botones_form {
   background-color: black;
   color: aqua;
-  
+
   font-weight: bold;
   border-radius: 5px;
-  margin: 0 10px 0 0 ;
+  margin: 0 10px 0 0;
 }
 
 .botones_form:hover {
   background-color: aqua;
   color: black;
-  
+
 }
 
 /* fin pagina contactos */
@@ -233,48 +235,43 @@ p {
 }
 
 .foto-1 {
-  margin: 10px;
-  padding: 10px;
+
   grid-area: foto-1;
 }
 
 .foto-2 {
-  margin: 10px;
-  padding: 10px;
+
   grid-area: foto-2;
 }
 
 .foto-3 {
-  margin: 10px;
-  padding: 10px;
+
   grid-area: foto-3;
 }
 
 .foto-4 {
-  margin: 10px;
-  padding: 10px;
+
   grid-area: foto-4;
 }
 
 .foto-5 {
-  margin: 10px;
-  padding: 10px;
+
   grid-area: foto-5;
 }
 
 .foto-6 {
-  margin: 10px;
-  padding: 10px;
+
   grid-area: foto-6;
 }
- 
+
 /*** grid img***/
 .img_grid {
   max-width: 100%;
-  height: 79%;
-  border-radius: 17px;
-  
+  height: 81%;
+  border-radius: 14px;
+
 }
+
 /*** CARTAS ANIMADAS ***/
 .flip-card {
   background-color: transparent;
@@ -285,7 +282,7 @@ p {
   perspective: 1000px;
   font-family: sans-serif;
   margin-top: 15px;
-  
+
 }
 
 .title {
@@ -325,16 +322,17 @@ p {
 
 .flip-card-front {
   background: linear-gradient(120deg, #e0e0e0 60%, #2f6ad4 88%,
-          #006bff 40%, #2f6ad4 48%);
+      #006bff 40%, #2f6ad4 48%);
   color: #0b00a0;
 }
 
 .flip-card-back {
   background: linear-gradient(120deg, white 30%, #8d00ff 88%,
-          #9d2fd4 40%, #8d00ff 78%);
+      #9d2fd4 40%, #8d00ff 78%);
   color: white;
   transform: rotateY(180deg);
 }
+
 /*** FIN DE CARTAS ANIMADAS ***/
 /* fin pagina fotos */
 
