@@ -355,7 +355,8 @@ p {
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     grid-auto-flow: row;
-    grid-template-areas: "foto-1 foto-2 " "foto-4 foto-5 " "foto-3 foto-6"; }
+    grid-template-areas: "foto-1 foto-2 " "foto-4 foto-5 " "foto-3 foto-6";
+    justify-items: center; }
   /* fin fotos */
   .header__nav {
     display: flex;
@@ -428,7 +429,8 @@ p {
     grid-template-rows: repeat(6, 1fr);
     justify-content: center;
     grid-auto-flow: row;
-    grid-template-areas: "foto-1" "foto-2" "foto-4" "foto-5" "foto-3" "foto-6"; }
+    grid-template-areas: "foto-1" "foto-2" "foto-4" "foto-5" "foto-3" "foto-6";
+    justify-items: center; }
   /* pagina contacto */
   .main__div--contactos {
     display: flex;
